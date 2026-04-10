@@ -2,5 +2,3 @@ images:
   - boot
   - vendor_boot
   - dtbo
-  
-    branch: sixteen-qpr2
