@@ -1,0 +1,2 @@
+# Release Config
+for PixelOS
