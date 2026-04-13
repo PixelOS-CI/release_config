@@ -5,3 +5,15 @@ images:
   - recovery
   - init_boot
 
+picks:
+# hw/qcom-caf/common
+# 471088: libqti-perfd-client: Implement camera perf hints | https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/471088
+  - id: 471088
+    remote: "https://review.lineageos.org"
+    path: "hardware/qcom-caf/common"
+
+# 477487: libqti-perfd-client: Reset Power HAL on binder death | https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/477487
+  - id: 477487
+    remote: "https://review.lineageos.org"
+    path: "hardware/qcom-caf/common"
+  
