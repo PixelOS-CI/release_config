@@ -3,3 +3,12 @@ images:
   - vendor_boot
   - dtbo
 
+picks:
+  #hardware/oplus
+  - id: 7213
+  - id: 7214
+  - id: 7215
+  - id: 7646
+
+  #sm8350-common
+  - id: 7694
