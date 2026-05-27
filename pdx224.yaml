@@ -1,0 +1,10 @@
+images:
+  - boot
+  - vendor_boot
+  - dtbo
+  - recovery
+  - vbmeta
+  - super_empty
+
+build:
+  type: "user"
