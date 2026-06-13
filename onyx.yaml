@@ -6,6 +6,12 @@ images:
   - init_boot
 
 picks:
+# hw/xiaomi
+# 489736: aidl: fingerprint: Add support for the jiiov fingerprint hal | https://review.lineageos.org/c/LineageOS/android_hardware_xiaomi/+/489736
+  - id: 489736
+    remote: "https://review.lineageos.org"
+    path: "hardware/xiaomi"
+
 # hw/qcom-caf/common
 # 471088: libqti-perfd-client: Implement camera perf hints | https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/471088
   - id: 471088
