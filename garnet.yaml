@@ -13,7 +13,7 @@ extra_deps:
 picks:
   # PixelOS-Devices/android_packages_apps_Updater
   - id: 10596
-      pull: true
+    pull: true
 
 # hw/qcom-caf/common
 # 471088: libqti-perfd-client: Implement camera perf hints | https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/471088
