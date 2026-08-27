@@ -6,14 +6,19 @@ import re
 from urllib.request import urlopen
 
 
-URL = "https://raw.githubusercontent.com/PixelOS-AOSP/official_devices/refs/heads/sixteen/API/devices.json"
+REPOSITORY = "PixelOS-AOSP/official_devices"
 TEMPLATE = 'build:\n  type: "user"\n'
 
 
 def main():
     root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
-    with urlopen(URL) as response:  # noqa: S310
+    with urlopen(f"https://api.github.com/repos/{REPOSITORY}") as response:
+        branch = json.load(response)["default_branch"]
+
+    with urlopen(
+        f"https://raw.githubusercontent.com/{REPOSITORY}/refs/heads/{branch}/API/devices.json"
+    ) as response:
         devices = json.load(response)["devices"]
 
     wanted = set()
