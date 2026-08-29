@@ -4,16 +4,7 @@ images:
   - dtbo
   - recovery
 
-extra_deps:
-
-  - url: https://github.com/dsashwin/android_vendor_crowdin.git
-    path: vendor/crowdin
-    branch: l10n_main
-
 picks:
-  # PixelOS-Devices/android_packages_apps_Updater
-  - id: 10596
-    pull: true
 
 # hw/qcom-caf/common
 # 471088: libqti-perfd-client: Implement camera perf hints | https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/471088

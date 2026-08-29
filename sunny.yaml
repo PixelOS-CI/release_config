@@ -6,13 +6,3 @@ build:
   type: user
   upload_full_tf: true
 
-extra_deps:
-
-  - url: https://github.com/dsashwin/android_vendor_crowdin.git
-    path: vendor/crowdin
-    branch: l10n_main
-
-picks:
-  # PixelOS-Devices/android_packages_apps_Updater
-  - id: 10623
-    pull: true

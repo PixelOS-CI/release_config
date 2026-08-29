@@ -1,13 +1,3 @@
 images:
   - recovery
 
-extra_deps:
-
-  - url: https://github.com/dsashwin/android_vendor_crowdin.git
-    path: vendor/crowdin
-    branch: l10n_main
-
-picks:
-  # PixelOS-Devices/android_packages_apps_Updater
-  - id: 10648
-    pull: true
