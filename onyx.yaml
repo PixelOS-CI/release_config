@@ -6,19 +6,18 @@ images:
   - init_boot
 
 picks:
-# hw/xiaomi
-# 489736: aidl: fingerprint: Add support for the jiiov fingerprint hal | https://review.lineageos.org/c/LineageOS/android_hardware_xiaomi/+/489736
-  - id: 489736
-    remote: "https://review.lineageos.org"
-    path: "hardware/xiaomi"
-
-# hw/qcom-caf/common
-# 471088: libqti-perfd-client: Implement camera perf hints | https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/471088
+  # LineageOS/android_hardware_qcom-caf_common
+  # 471088: libqti-perfd-client: Implement camera perf hints | https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/471088
   - id: 471088
     remote: "https://review.lineageos.org"
     path: "hardware/qcom-caf/common"
 
-# 477487: libqti-perfd-client: Reset Power HAL on binder death | https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/477487
+  # 477487: libqti-perfd-client: Reset Power HAL on binder death | https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/477487
   - id: 477487
     remote: "https://review.lineageos.org"
     path: "hardware/qcom-caf/common"
+  
+extra_deps:
+  - url: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar
+    path: vendor/qcom/opensource/audio-hal/st-hal-ar
+    branch: 903ca7612182ba063af06f12f841e92aa6328b72
