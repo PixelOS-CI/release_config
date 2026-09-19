@@ -5,3 +5,15 @@ images:
 
 build:
   type: "user"
+  incremental: false
+
+picks:
+ # 9243: Revert "libprocessgroup: CgroupSetup should fail if a required controller fails to mount" | https://review.pixelos.net/c/PixelOS-AOSP/android_system_core/+/9243
+  - id: 9243
+    pull: true
+
+extra_deps:
+  - url: https://github.com/PixelOS-AOSP/android_system_memory_libmeminfo
+    path: system/memory/libmeminfo
+    branch: seventeen
+
