@@ -5,3 +5,4 @@ images:
   
 build:
   type: "user"
+  incremental: false

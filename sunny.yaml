@@ -6,3 +6,7 @@ build:
   type: user
   upload_full_tf: true
 
+extra_deps:
+  - url: https://github.com/PixelOS-AOSP/android_system_memory_libmeminfo
+    path: system/memory/libmeminfo
+    branch: seventeen
