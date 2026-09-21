@@ -1,7 +1,8 @@
 images:
   - boot
-  - vendor_boot
   - dtbo
+  - super_empty
+  - vendor_boot
 
 build:
   type: "user"
