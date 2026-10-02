@@ -3,3 +3,5 @@ images:
   - vendor_boot
   - dtbo
 
+build:
+  upload_full_tf: true
