@@ -10,7 +10,6 @@ images:
 picks:
   - id: 10604
   - id: 11830
-  - id: 10579
   - id: 507722
     remote: "https://review.lineageos.org"
     path: "hardware/qcom-caf/sm8550/audio/agm"
