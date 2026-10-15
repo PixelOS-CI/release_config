@@ -17,3 +17,4 @@ picks:
   - id: 507723
     remote: "https://review.lineageos.org"
     path: "hardware/qcom-caf/sm8550/audio/pal"
+  - id: "oplus-face-unlock"
