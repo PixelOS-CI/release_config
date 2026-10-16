@@ -11,3 +11,7 @@ picks:
   - id: 10604
   - id: 11830
   - id: "oplus-face-unlock"
+  - id: 508849
+    remote: "https://review.lineageos.org"
+    path: "hardware/qcom-caf/sm8550/audio/primary-hal"
+    
