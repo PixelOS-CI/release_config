@@ -1,0 +1,24 @@
+build:
+  type: "user"
+
+images:
+  - boot
+  - vendor_boot
+  - dtbo
+
+extra_deps:
+  - url: https://github.com/PixelOS-tundra/android_device_motorola_tundra
+    path: device/motorola/tundra
+    branch: seventeen
+
+  - url: https://github.com/PixelOS-tundra/android_hardware_motorola
+    path: hardware/motorola
+    branch: staging/seventeen
+
+  - url: https://github.com/PixelOS-tundra/android_kernel_motorola_tundra
+    path: kernel/motorola/tundra
+    branch: seventeen
+
+  - url: https://github.com/PixelOS-tundra/proprietary_vendor_motorola_tundra
+    path: vendor/motorola/tundra
+    branch: seventeen
