@@ -9,11 +9,3 @@ images:
 
 picks:
   - id: 10604
-  - id: 11830
-  - id: 507722
-    remote: "https://review.lineageos.org"
-    path: "hardware/qcom-caf/sm8550/audio/agm"
-  - id: 507723
-    remote: "https://review.lineageos.org"
-    path: "hardware/qcom-caf/sm8550/audio/pal"
-  - id: "oplus-face-unlock"
