@@ -1,3 +1,11 @@
 images:
   - recovery
 
+picks:
+  - id: 12165
+    pull: true
+
+extra_deps:
+  - url: ssh://git@github.com/dsashwin/vendor_gauguin.git
+    path: vendor/xiaomi/gauguin
+    branch: non-elliptic
