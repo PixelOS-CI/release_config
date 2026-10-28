@@ -5,3 +5,9 @@ images:
   - boot
   - vendor_boot
   - dtbo
+
+picks:
+ #12119: audiopolicy: Restore volumes after voice call ends | https://review.pixelos.net/c/PixelOS-AOSP/android_frameworks_av/+/12119
+  - id: 12119
+    path: frameworks/av
+    pull: true
