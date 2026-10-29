@@ -1,0 +1,21 @@
+build:
+  type: "user"
+
+images:
+  - boot
+  - vendor_boot
+  - dtbo
+  - recovery
+  - init_boot
+
+picks:
+  # LineageOS/android_hardware_qcom_thermal
+  # 510936: thermal-hal: Fix dangling virtual sensor pointer | https://review.lineageos.org/c/LineageOS/android_hardware_qcom_thermal/+/510936
+  - id: 510936
+    remote: "https://review.lineageos.org"
+    path: "hardware/qcom-caf/thermal"
+
+  # 510937: thermal-hal: Add virtual skin sensor for tuna | https://review.lineageos.org/c/LineageOS/android_hardware_qcom_thermal/+/510937
+  - id: 510937
+    remote: "https://review.lineageos.org"
+    path: "hardware/qcom-caf/thermal"
