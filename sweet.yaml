@@ -5,6 +5,7 @@ images:
 
 build:
   type: "user"
+  upload_full_tf: true
 
 picks:
  #12149: ARM64: configs: sweet: Enable ln8000 charger | https://review.pixelos.net/c/PixelOS-Devices/android_kernel_xiaomi_sm6150/+/12149

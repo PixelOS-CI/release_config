@@ -5,6 +5,7 @@ images:
 
 build:
   type: "user"
+  upload_full_tf: true
 
 picks:
  # 9243: Revert "libprocessgroup: CgroupSetup should fail if a required controller fails to mount" | https://review.pixelos.net/c/PixelOS-AOSP/android_system_core/+/9243
