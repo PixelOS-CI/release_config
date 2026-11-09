@@ -8,6 +8,17 @@ build:
   upload_full_tf: true
 
 picks:
- #12149: ARM64: configs: sweet: Enable ln8000 charger | https://review.pixelos.net/c/PixelOS-Devices/android_kernel_xiaomi_sm6150/+/12149
+ # 12149: ARM64: configs: sweet: Enable ln8000 charger | https://review.pixelos.net/c/PixelOS-Devices/android_kernel_xiaomi_sm6150/+/12149
   - id: 12149
     pull: true
+
+ # 512810: hal: Add open source MIUS ultrasound proximity extension | https://review.lineageos.org/c/LineageOS/android_hardware_qcom_audio/+/512810
+  - id: 512810
+    remote: "https://review.lineageos.org"
+    path: "hardware/qcom-caf/sm8150/audio"
+
+
+ # 512811: hal: Enable ACDB instance ID support when the ACDB files use it | https://review.lineageos.org/c/LineageOS/android_hardware_qcom_audio/+/512811
+  - id: 512811
+    remote: "https://review.lineageos.org"
+    path: "hardware/qcom-caf/sm8150/audio"
