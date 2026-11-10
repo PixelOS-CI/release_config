@@ -5,3 +5,7 @@ images:
   - boot
   - vendor_boot
   - dtbo
+
+picks:
+  # OverScroller: Report flings to a fling boost service
+  - id: 12629
