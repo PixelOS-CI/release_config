@@ -3,5 +3,9 @@ images:
   - vendor_boot
   - dtbo
 
+picks:
+  # oplus-fwk: Drop mOplusExtraConfiguration from OplusBaseConfiguration
+  - id: 12852
+
 build:
   upload_full_tf: true
