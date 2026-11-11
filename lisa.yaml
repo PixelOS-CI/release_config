@@ -2,4 +2,7 @@ images:
   - boot
   - vendor_boot
   - dtbo
-
+  
+build:
+  upload_full_tf: true
+  type: "user"
