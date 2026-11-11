@@ -6,3 +6,4 @@ images:
 
 build:
   type: "user"
+  upload_full_tf: true
