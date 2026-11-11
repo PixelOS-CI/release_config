@@ -4,6 +4,10 @@ images:
   - vbmeta
   - vendor_boot
 
+picks:
+  # oplus-fwk: Drop mOplusExtraConfiguration from OplusBaseConfiguration
+  - id: 12852
+
 build:
   type: "user"
   upload_full_tf: true
