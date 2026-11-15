@@ -1,0 +1,36 @@
+images:
+  - boot
+  - vendor_boot
+  - dtbo
+  - recovery
+  - init_boot
+  - vbmeta
+  - super_empty
+
+picks:
+  - id: "sm8550-oplus-cam"
+  # infiniti-avr
+  # fwb
+  - id: 11818
+  # settings
+  - id: 11819
+  # modules
+  - id: 504300
+    remote: "https://review.lineageos.org"
+    path: "kernel/platform/kernel-6.12/vendor/oneplus/sm8850-modules"
+  # dts
+  - id: 504301
+    remote: "https://review.lineageos.org"
+    path: "kernel/platform/kernel-6.12/vendor/oneplus/sm8850-devicetrees"
+  # display hal
+  - id: 507211
+    remote: "https://review.lineageos.org"
+    path: "hardware/qcom-caf/sm8850/display/core"
+  # native
+  - id: 12887
+
+extra_deps:
+
+  - url: https://github.com/beet-stuffs/android_vendor_qcom_opensource_display-core
+    path: hardware/qcom-caf/sm8850/display/core
+    branch: lineage-24.0-caf-sm8850
